@@ -1,0 +1,4 @@
+<div [class]="color" [ngClass]="selectedClass" (click)="changeSelected()" >
+  <img *ngIf="piece.piece" [src]="pieceURL" alt="">
+  <div [class]="hintClass" style="color: transparent;">.</div>
+</div>

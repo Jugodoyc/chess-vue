@@ -1,0 +1,28 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 80px);
+  height: max-content;
+  width: max-content;
+  margin: 0;
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  width: max-content;
+  margin: 0;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  margin: 0;
+}
+
+board-cell {
+  height: 80px;
+  width: 80px;
+}
